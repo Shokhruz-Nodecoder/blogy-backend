@@ -4,4 +4,5 @@ const culture = require("./culture.route");
 const politics = require("./politics.route")
 const travel = require("./travel.route")
 const delete1 = require("./delete.route")
-module.exports = [auth, business, culture,politics,travel,delete1];
+const comment = require("./comment.route")
+module.exports = [auth, business, culture,politics,travel,delete1,comment];
